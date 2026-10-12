@@ -42,7 +42,7 @@
 
 * [CFX AUTH](infomations/cfx-auth.md)
 * [CUSTOMER ROLE](infomations/customer-role.md)
-* [CHANGE LOGS](https://updates.rdstorefivem.com/)
+* [CHANGE LOGS](https://rdstorefivem.com/updates)
 * [ESCROW SYSTEM](https://forum.cfx.re/t/introducing-asset-escrow-for-your-resources/4777151)
 * [TERMS & CONDITIONS](https://rdstorefivem.com/terms)
 
