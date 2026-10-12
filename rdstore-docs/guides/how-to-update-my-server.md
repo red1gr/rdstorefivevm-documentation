@@ -1,0 +1,150 @@
+# HOW TO UPDATE MY SERVER
+
+## **HOW TO UPDATE MY SERVER**
+
+**TO ENSURE YOUR FIVEM SERVER RUNS SMOOTHLY AND AVOIDS CRITICAL ISSUES, IT IS ESSENTIAL TO KEEP YOUR FRAMEWORK, ARTIFACTS, AND GAMEBUILD UP TO DATE. HERE IS A DETAILED GUIDE**
+
+{% stepper %}
+{% step %}
+#### **FRAMEWORK**
+
+**YOUR SERVER FRAMEWORK IS THE MOST IMPORTANT COMPONENT,  HERE IS A SIMPLE GUIDE ON HOW TO UPDATE IT CORRECTLY**
+{% endstep %}
+
+{% step %}
+#### **ARTIFACTS**
+
+**ARTIFACTS ARE THE CORE OF YOUR SERVER**
+{% endstep %}
+
+{% step %}
+#### **GAMEBUILD**
+
+**THE GAMEBUILD IS THE VERSION OF THE GAME OR DLC YOUR SERVER RUNS. ALWAYS USE THE LATEST VERSION FOR BEST COMPATIBILITY**
+{% endstep %}
+{% endstepper %}
+
+## FRAMEWORK UPDATE
+
+{% hint style="info" %}
+**UPDATING YOUR FRAMEWORK IS CRUCIAL BEFORE UPDATING ARTIFACTS AND GAMEBUILD. FOLLOW THESE STEPS CAREFULLY**
+{% endhint %}
+
+{% stepper %}
+{% step %}
+#### DOWNLOAD THE OFFICIAL FRAMEWORKS
+
+{% tabs %}
+{% tab title="QBCORE" %}
+[QBCORE GITHUB REPOSITORY](https://github.com/qbcore-framework/qb-core)
+{% endtab %}
+
+{% tab title="ESX" %}
+[ESX GITHUB REPOSITORY](https://github.com/esx-framework/esx_core)
+{% endtab %}
+
+{% tab title="QBOX" %}
+[QBOX GITHUB REPOSITORY](https://github.com/Qbox-project/qbx_core)
+{% endtab %}
+
+{% tab title="OXCORE" %}
+[OXCORE GITHUB REPOSITORY](https://github.com/overextended/ox_core)
+{% endtab %}
+
+{% tab title="NDCORE" %}
+[NDCORE GITHUB REPOSITORY](https://github.com/ND-Framework/ND_Core)
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+#### REPLACE YOUR CURRENT FRAMEWORK FOLDER
+
+**REMOVE YOUR EXISTING FRAMEWORK FOLDER AND REPLACE IT WITH THE LATEST VERSION FROM GITHUB. DO NOT MERGE FILES TO AVOID UNEXPECTED ISSUES**
+{% endstep %}
+
+{% step %}
+#### DO NOT RENAME THE FRAMEWORK FOLDER
+
+**KEEP THE FOLDER NAME EXACTLY AS PROVIDED BY THE OFFICIAL REPOSITORY. RENAMING IT CAN CAUSE SEVERE COMPATIBILITY ISSUES WITH SCRIPTS**
+{% endstep %}
+{% endstepper %}
+
+<figure><img src="https://r2.fivemanage.com/e9ayQ4VVHnYGIcG9ROsZf/image.gif" alt=""><figcaption></figcaption></figure>
+
+***
+
+## UPDATE ARTIFACTS
+
+{% hint style="info" %}
+**ARTIFACTS ARE THE CORE FILES NEEDED TO RUN YOUR SERVER. KEEPING THEM UPDATED ENSURES COMPATIBILITY WITH THE LATEST FIVEM FEATURES**
+{% endhint %}
+
+{% stepper %}
+{% step %}
+#### REMOVE OLD ARTIFACTS
+
+**DELETE YOUR CURRENT `ARTIFACTS` FOLDER COMPLETELY TO AVOID LEFTOVER FILES CAUSING ISSUES.**
+{% endstep %}
+
+{% step %}
+#### DOWNLOAD LATEST ARTIFACTS
+
+**GET THE LATEST VERSION OF ARTIFACTS FOR YOUR OPERATING SYSTEM FROM THE OFFICIAL FIVEM LINKS**
+
+* [WINDOWS ARTIFACTS](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/)
+* [LINUX ARTIFACTS](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
+{% endstep %}
+
+{% step %}
+#### EXTRACT AND REPLACE
+
+**EXTRACT THE DOWNLOADED ARTIFACTS AND REPLACE YOUR OLD ARTIFACTS FOLDER COMPLETELY**
+{% endstep %}
+{% endstepper %}
+
+<figure><img src="https://r2.fivemanage.com/e9ayQ4VVHnYGIcG9ROsZf/image2.gif" alt=""><figcaption></figcaption></figure>
+
+***
+
+## UPDATE GAMEBUILD
+
+{% hint style="info" %}
+**USING THE LATEST GAMEBUILD ENSURES ACCESS TO NEW FEATURES AND PREVENTS COMPATIBILITY ERRORS**
+{% endhint %}
+
+{% stepper %}
+{% step %}
+#### OPEN YOUR SERVER.CFG FILE
+
+**FIND YOUR SERVER.CFG FILE AND OPEN IT. ADD YOUR GAMEBUILD IN THE HEADER**
+{% endstep %}
+
+{% step %}
+#### EDIT YOUR SERVER CONFIGURATION
+
+**OPEN THE `SERVER.CFG` FILE AND ADD THE FOLLOWING LINE**
+
+```
+sv_enforceGameBuild 3258
+```
+
+**THIS SETS THE GAMEBUILD TO THE LATEST STABLE VERSION SUPPORTED BY FIVEM**
+{% endstep %}
+{% endstepper %}
+
+***
+
+<details>
+
+<summary><strong>WHY IS THIS IMPORTANT?</strong></summary>
+
+* **KEEPING YOUR FRAMEWORK, ARTIFACTS, AND GAMEBUILD UPDATED ENSURES YOUR SERVER IS COMPATIBLE WITH THE LATEST SCRIPTS AND FEATURES**
+* **NOT UPDATING CAN LEAD TO CRASHES, BUGS, OR INCOMPLETE FUNCTIONALITY**
+* **AVOID RENAMING FOLDERS OR USING UNOFFICIAL VERSIONS OF FRAMEWORKS, AS THIS OFTEN CAUSES CRITICAL ERRORS.**
+
+</details>
+
+{% hint style="success" %}
+**BY FOLLOWING THESE STEPS, YOU ENSURE A STABLE, WELL-FUNCTIONING SERVER THAT MINIMIZES COMMON ISSUES**
+{% endhint %}
