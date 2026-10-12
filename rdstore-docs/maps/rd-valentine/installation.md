@@ -2,7 +2,7 @@
 icon: down
 ---
 
-# INSTALLATION OF 
+# INSTALLATION 
 
 {% stepper %}
 {% step %}
