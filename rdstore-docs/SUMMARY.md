@@ -33,7 +33,7 @@
 
 * [RD-VALENTINE](maps/rd-valentine/README.md)
   * [PREVIEW](maps/rd-valentine/preview.md)
-  * [INSTALLATION](maps/rd-valentine/installation.md)
+  * [INSTALLATION TEST](maps/rd-valentine/installation.md)
 * [RD-PHARMACY MAP](maps/rd-pharmacy-map/README.md)
   * [PREVIEW](maps/rd-pharmacy-map/preview.md)
   * [INSTALLATION](maps/rd-pharmacy-map/installation.md)
