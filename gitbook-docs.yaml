@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: RDSTORE DOCS
+  structure:
+    - type: space
+      key: space-1
+      title: RDSTORE FIVEM DOCS
+      path: rdstore-docs
+      default: true
+      content:
+        directory: ./rdstore-docs
+        language: en
